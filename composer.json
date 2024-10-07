@@ -3,7 +3,7 @@
     "description": "SVR LOGS - A simple Laravel package.",
     "type": "library",
     "license": "GPL-3.0-or-later",
-    "homepage": "https://github.com/Spirit412/svr_raw",
+    "homepage": "https://github.com/truelamer/svr-logs",
     "authors": [
         {
             "name": "Filin Ilya",
