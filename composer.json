@@ -1,0 +1,33 @@
+{
+    "name": "svr/logs",
+    "description": "SVR LOGS - A simple Laravel package.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "homepage": "https://github.com/Spirit412/svr_raw",
+    "authors": [
+        {
+            "name": "Filin Ilya",
+            "email": "filin.iv@plinor.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Svr\\Logs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Svr\\Logs\\LogsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "dedermus/open-admin-core": "^v2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    }
+}
+
